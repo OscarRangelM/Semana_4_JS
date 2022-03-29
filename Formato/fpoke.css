@@ -20,14 +20,15 @@ body {
 /*ubicacion y tamaño de la division pokedex*/
 .fondoprueba{
     display: flex;
-    margin-top: 1rem;
+
     width: 46rem;
     height: 36.2rem;
-    font-size: 5em;
     justify-content: left;
 }
 .ubi{
     display: flex;
+    margin-left: 0rem;
+    margin-right: 0rem;
     justify-content: center;
 }
 .busqueda{
@@ -35,24 +36,21 @@ body {
     height: 2rem;
     background-color: #C2E8FF;
     font-size: 2rem;
-    border-radius: 15%;
-    border: 0ch;
-}
-.busqueda1{
+    border: 1px;
+    font-size: 2rem;
     position: relative;
     top: 23.5rem;
     left: -28rem;
+    text-align: center;
 
 }
 .circulo{
-    position: relative;
-    top: 25.5rem;
-    left: -19.5rem;
-/*    width: 7rem;*/
+    background-color: #BADFBd;
     height: 5rem;
     font-size: 1.5rem;
-    background-color: #BADFBd;
-    border: 0rem;
+    font-family: fantasy;
     border-radius: 50%;
-    font-style: comic;
+    position: relative;
+    top: 25.2rem;
+    right: 20.2rem;
 }
