@@ -1,3 +1,8 @@
+/*Formato del body*/
+body { 
+    background-image: url("../Imagenes/fondopoke.jpg") 
+}
+/*div del logo*/
 .titulo1{
     display: flex;
     margin-top: 1em;
@@ -7,23 +12,47 @@
     justify-content: center;
 
 }
+/*formato de la imagen d pokemon*/
 .logo{
     transition:cubic-bezier(0.47, 0, 0.745, 0.715);
     width: 20rem;
 }
+/*ubicacion y tamaño de la division pokedex*/
 .fondoprueba{
+    display: flex;
     margin-top: 1rem;
     width: 46rem;
     height: 36.2rem;
     font-size: 5em;
-    display: flex;
-    justify-content: center;
-}
-body { 
-    background-image: url("../Imagenes/fondopoke.jpg") 
+    justify-content: left;
 }
 .ubi{
     display: flex;
     justify-content: center;
 }
+.busqueda{
+    width: 10rem;
+    height: 2rem;
+    background-color: #C2E8FF;
+    font-size: 2rem;
+    border-radius: 15%;
+    border: 0ch;
+}
+.busqueda1{
+    position: relative;
+    top: 23.5rem;
+    left: -28rem;
 
+}
+.circulo{
+    position: relative;
+    top: 25.5rem;
+    left: -19.5rem;
+/*    width: 7rem;*/
+    height: 5rem;
+    font-size: 1.5rem;
+    background-color: #BADFBd;
+    border: 0rem;
+    border-radius: 50%;
+    font-style: comic;
+}
