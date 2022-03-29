@@ -1,0 +1,29 @@
+.titulo1{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+
+    justify-content: center;
+
+}
+.logo{
+    transition:cubic-bezier(0.47, 0, 0.745, 0.715);
+    width: 20rem;
+}
+.fondoprueba{
+    margin-top: 1rem;
+    width: 46rem;
+    height: 36.2rem;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+body { 
+    background-image: url("../Imagenes/fondopoke.jpg") 
+}
+.ubi{
+    display: flex;
+    justify-content: center;
+}
+
