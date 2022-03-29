@@ -18,12 +18,25 @@
     <div class="ubi">
         
         <div class="fondoprueba">
+            
             <img src="Imagenes/pokedex.png" alt="Pokedex">
+            <div class="pos">
+                <img src="Imagenes/Detective.png" alt="Detective, Pikachu" id="pokeImg" class="imgbus">
+            </div>
+            <div class="b">
+                <button class="a" onclick=""><img src="Imagenes/arriba.png" alt="" class="flechas"></button>
+                <button class="d" onclick=""><img src="Imagenes/derecha.png" alt="" class="flechas"></button>
+                <button class="ab" onclick=""><img src="Imagenes/abajo.png" alt="" class="flechas"></button>
+                <button class="i" onclick=""><img src="Imagenes/izquierda.png" alt="" class="flechas"></button>
+            </div>
             <input type="text" name="pokeName" id="pokeName" placeholder="Pikachu" class="busqueda">
-            <input type="button" name="Buscar" id="buscarpoke" class="circulo" value="Buscar">
+            <input type="button" name="Buscar" id="buscarpoke" class="circulo" value="Buscar" onclick="fetchPokemon()">
         </div>
 
     </div>
     
 </body>
+<footer>
+    <script src="JS/index.js"></script>
+</footer>
 </html>
